@@ -1,0 +1,46 @@
+section
+{
+    width:80%;
+}
+
+#mapArea
+{
+    width:35%;
+    float:left;
+}
+#regForm
+{
+    width:45%;
+    margin-left: 60%;
+
+}
+
+#regForm fieldset
+{
+    border:2px double blue;
+}
+
+#regForm fieldset legend
+{
+    text-align: center;
+}
+#regForm fieldset input
+{
+    width:70%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+#regForm fieldset input[type=radio]
+{
+    width:25%;
+    margin-left: 0%;
+    margin-bottom: 3%;
+}
+#regForm fieldset input[type=submit]
+{
+
+    width:30%;
+    margin-left: 40%;
+    color: white;
+    background: blue;
+}
