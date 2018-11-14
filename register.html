@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link type="text/css" rel="stylesheet" href="styles/register.css">
+</head>
+<body>
+<section>
+<article id="mapArea">
+
+</article>
+<form id="regForm">
+    <fieldset>
+        <legend>
+            User Registration
+        </legend>
+
+        <input type="text" id="firstName" placeholder="First Name"
+               required pattern="[A-Za-z]{5,50}">
+        <input type="text" id="lastName" placeholder="Last Name"
+               required pattern="[A-Za-z]{5,50}">
+        <input type="date" id="dob" placeholder="DOB"
+               required>
+        <input type="email" id="email" placeholder="Email Address"
+               required >
+        <input type="text" id="country" list="countryList" required>
+        <textarea rows="5" id="address" required>
+
+        </textarea>
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Male">Male
+        <input type="file" id="profilePhoto">
+        <input type="submit" value="Register">
+
+    </fieldset>
+
+</form>
+
+</section>
+<datalist id="countryList">
+    <option>India</option>
+    <option>USA</option>
+    <option>SriLanka</option>
+    <option>Singapore</option>
+</datalist>
+</body>
+</html>
