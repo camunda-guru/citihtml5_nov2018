@@ -1,0 +1,19 @@
+header
+{
+    width:80%;
+    margin-left: 5%;
+    /*border: 2px solid red;*/
+}
+
+#logo
+{
+    width:25%;
+    float:left;
+}
+
+#banner
+{
+
+    width:60%;
+    margin-left: 25%;
+}
