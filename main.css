@@ -1,0 +1,30 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI, Helvetica, Arial, Sans-Serif;
+    background: #efefef;
+    text-shadow: 1px 1px 1px #ccc;
+}
+section
+{
+    width: 310px;
+    margin: 20px auto;
+}
+#progressbar-bg
+{
+    width: 310px;
+    background: gray;
+    border-radius: 3px;
+}
+#progressbar
+{
+    height: 20px;
+    margin: 5px 0px;
+    color: #fff;
+    padding: 5px;
+background-color: blue;
+
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px red;
+}
